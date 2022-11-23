@@ -26,6 +26,7 @@ def return_list_of_searched_values(task_list, key, value):
             return_list.append(task)
     print(return_list)
 
+print("Q.1 Alt answer")
 print(return_list_of_searched_values(tasks, "completed", False))
 
 # 2. Print a list of completed tasks
