@@ -127,6 +127,10 @@ def user_menu_option():
 # print(user_menu_option())
 
 # Q.8 Alt answer:
+# use a menu_option_list for increased DRY.
+#  Further ideas:
+#  - could pass menu_options_list as an arg.
+#  - could return values other than strings
 
 def user_menu_option_alt():
     print_menu()
@@ -135,7 +139,7 @@ def user_menu_option_alt():
     while user_input:
         for option in menu_option_list:
             if user_input == option:
-                return option
+                return option #more secure to return list values? no weird escape character hacks, idk.
 
 print("Q.8 alt method")
 print(user_menu_option_alt())
