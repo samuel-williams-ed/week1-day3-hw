@@ -143,7 +143,6 @@ print("Q.8: commented out")
 
 # Q.8 Alt answer:
 # use a menu_option_list for increased DRY.
-#  Further ideas:
 #  - could pass menu_options_list as an arg.
 #  - could return values other than strings
 
@@ -159,8 +158,8 @@ def user_menu_alt(): #prints menu and takes user menu input
     print_menu()
     return get_user_menu_input_alt()
 
-print("Q.8 alt method: commented out")
-# print(user_menu_alt())
+print("Q.8 alt method: ")
+print(user_menu_alt())
 
 # 9. Call the appropriate function depending on the users choice.
 
@@ -199,5 +198,5 @@ def call_menu_item(task_list):
         return
 
 print("Q.9 commented out")
-call_menu_item(tasks)
+# call_menu_item(tasks)
 
